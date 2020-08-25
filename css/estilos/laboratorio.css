@@ -1,0 +1,164 @@
+.heading {
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.heading h1 {
+  margin-top: 30px;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffbb05;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.first-content h4 {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #121212;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.first-content {
+  padding: 60px 0px;
+}
+
+.first-content p {
+  margin: 0px 120px;
+}
+
+.first-content .primary-button {
+  margin-top: 30px;
+}
+
+.third-slide {
+  
+  background-color: #fff;
+  width: 100%;
+}
+
+.second-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.second-slide .heading h1 {
+  margin-top: 30px;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.second-slide .heading span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffbb05;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.second-slide img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.second-slide .left-image {
+  padding-right: 0px!important;
+}
+
+.second-slide .right-image {
+  padding-left: 0px!important;
+}
+
+.second-slide .right-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+
+.second-slide .right-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.second-slide .right-about-text .primary-button {
+  margin-top: 25px;
+}
+
+.second-slide .left-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-left: 30px;
+}
+
+.second-slide .left-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.second-slide .left-about-text .primary-button {
+  margin-top: 25px;
+}
+
+
+.content {
+  margin-bottom: 100px;
+  margin-top: -80px;
+  background-color: #fff;
+  border-top: 15px solid #f3f3f3;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.third-content .right-feature-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.third-content .right-feature-text h4 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #ffbb05;
+}
+
+.third-content .feature-list {
+  margin-top: 20px;
+}
+
+.third-content .feature-list p {
+  font-weight: 400;
+}
+
+.third-content .right-feature-text {
+  text-align: left;
+  margin: 0px 15px 0px 15px;
+}
+
+.third-content .right-feature-text .primary-button {
+  margin-top: 30px;
+}

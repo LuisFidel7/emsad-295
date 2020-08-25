@@ -1,0 +1,180 @@
+/* 9. Testimonials Styles
+--------------------------------------*/
+.img-container {	
+	display: inline-block;
+	vertical-align: middle;
+	width: 170px;
+	height: 170px;
+	position: relative;
+}
+.tm-img-circle-border img {	
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.tm-img-circle-border {
+	border: 1px solid #ffc601;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 4px;
+	width: 130px;
+	height: 130px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.tm-img-circle-border.active img {
+	width: 150px;
+	height: 150px;
+}
+.tm-img-circle-border.active {
+	border: 3px solid #ffc601;
+	width: 170px;
+	height: 170px;
+	padding: 7px;
+}
+p.tm-author {
+	font-weight: 700;
+	font-style: italic;
+	margin: 10px 0 0 0;
+}
+hr.tm-author-name-underline {
+	height: 1px;
+	width: 80px;
+	border: none;
+    color: #ffc601; /* old IE */
+    background-color: #ffc601; /* Modern Browsers */
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.tm-orange-text { color: #ffc601; }
+
+.margin-top-50 { margin-top: 50px; }
+.hide {
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+}
+
+.absolute-center {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 120px;
+  }
+  .tm-border {
+	  height: auto;
+	  width: 100%;
+  }
+ 
+
+
+
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.team .member .pic {
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  right: 20px;
+  background: rgb(243, 239, 242);
+  padding: 20px 0;
+  color: #000000;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  max-height: 95px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.team .member:hover .member-info {
+  max-height: 300px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #51b133;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #2ea510;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.team .member .social {
+  margin-top: 15px;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #bd0ebd;
+}
+
+.team .member .social a:hover {
+  color: #cc39c5;
+}
+
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+  .team .member {
+    margin-bottom: 110px;
+  }
+}
+
+
+section {
+  padding: 20px 0;
+}
+
+.section-bg {
+  background-color: #e42b25;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #000000;
+  z-index: 2;
+}

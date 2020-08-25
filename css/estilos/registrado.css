@@ -1,0 +1,43 @@
+body {
+	background-color: white;
+	background-image: url(../../img/bg.jpg);
+	background-position: left top;
+	background-repeat: repeat;
+	-webkit-font-smoothing: antialiased;
+}
+
+.margin-collection {
+  margin-top: 30px;
+  padding: 20%;
+}
+
+.heading-inner {
+  font-family: 'Qwigley', Helvetica, Sans-serif;	   
+  font-size: 2.2em;
+font-weight: 600;
+  color: #4f4d47;
+margin-top: 16px;
+margin-bottom: 0;
+text-align: center;
+line-height: 1.7em;
+}
+
+
+.hr {
+	border-bottom: 2px solid #4f4d47;
+	display: block;
+	width: 14px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.heading-c {
+	font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+	font-weight: 400;
+	color: #898989;
+	margin-top: 16px;
+	margin-bottom: 45px;
+	text-align: center;
+	line-height: 1.7em;
+}
